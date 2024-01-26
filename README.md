@@ -6,6 +6,8 @@ Projeto desenvolvido para uso de funcionalidades presentes no curso "React Js do
 
 Link do curso Udemy: www.udemy.com/course/curso-reactjs/ (link também presente na descrição) </br>
 Link das api's TheMovieDb: https://developer.themoviedb.org/reference/intro/getting-started
+</br>
+Link do projeto em produção: https://filmaria-poc.netlify.app/
 
 ## Versões necessárias
 
