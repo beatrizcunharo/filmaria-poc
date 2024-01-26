@@ -11,10 +11,17 @@
 
 .meus-filmes span {
     font-size: 18px;
+    @media (max-width: 540px) {
+        padding: 10px;
+    }
 }
 
 .meus-filmes ul {
     width: 720px;
+
+    @media (max-width: 540px) {
+        width: 100%;
+    }
 }
 
 .meus-filmes ul li {
@@ -23,6 +30,26 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 14px;
+
+    @media (max-width: 540px) {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        justify-content: center;
+    }
+
+    button {
+        cursor: pointer;
+        background-color: #fff;
+        padding: 5px 14px;
+        text-decoration: none;
+        color: #000;
+        border-radius: 4px;
+    }
+
+    div {
+        padding: 10px;
+    }
 }
 
 .meus-filmes div {

@@ -62,7 +62,7 @@ function Filme () {
             <img src={`https://image.tmdb.org/t/p/original/${filme.backdrop_path}`} alt={filme.title}/>
             <h3>Sinopse</h3>
             <span>{filme.overview}</span>
-            <strong>Avaliação: {filme.vote_avarage} / 10</strong>
+            <strong>Avaliação: {filme.vote_average.toFixed(1)} / 10</strong>
 
             <div className="area-buttons">
                 <button onClick={salvarFilme}>Salvar</button>
