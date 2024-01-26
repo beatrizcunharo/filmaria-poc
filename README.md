@@ -4,7 +4,7 @@ Projeto desenvolvido para uso de funcionalidades presentes no curso "React Js do
 
 ## Links
 
-Link do curso Udemy: www.udemy.com/course/curso-reactjs/ (link também presente na descrição)
+Link do curso Udemy: www.udemy.com/course/curso-reactjs/ (link também presente na descrição) </br>
 Link das api's TheMovieDb: https://developer.themoviedb.org/reference/intro/getting-started
 
 ## Versões necessárias
