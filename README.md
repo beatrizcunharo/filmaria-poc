@@ -1,6 +1,6 @@
-# Filmaria - Desenvolvido para o curso de "React Js do zero ao avançado na prática" da Udemy
+# Filmaria
 
-Projeto desenvolvido para uso de funcionalidades presentes no curso. Prática na utilização de React Hooks, React Router, css, api's da TheMovieDb, axios, toastify, netlify e storage. 
+Projeto desenvolvido para uso de funcionalidades presentes no curso "React Js do zero ao avançado na prática" da Udemy.
 
 ## Links
 
