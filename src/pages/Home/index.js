@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import api from '../../services/api'
+import {api_key} from '../../utils/index'
 import { Link } from "react-router-dom";
 import './home.css'
 
@@ -11,7 +12,7 @@ function Home () {
         async function loadFilmes () {
             const response = await api.get("movie/now_playing", { //o await espera a requisição para passar para a linha de baixo
                 params: {
-                    api_key: "65a85df54d92afbbcf6d43aae92ea78f",
+                    api_key: api_key,
                     language: "pt-BR",
                     page: 1
                 }

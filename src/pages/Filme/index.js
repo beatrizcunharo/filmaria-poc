@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import api from "../../services/api";
+import { api_key } from '../../utils/index'
 import { toast } from "react-toastify";
 import './filme-info.css'
 
 function Filme () {
     const { id } = useParams(); //id dinâmico que foi colocado na rota de filmes
-    const navigate = useNavigate(); // 
+    const navigate = useNavigate(); 
     const [filme, setFilme] = useState({}); //redireciona pra alguma outra página
     const [loading, setLoading] = useState(true);
 
@@ -14,7 +15,7 @@ function Filme () {
         async function loadFilme() {
             await api.get(`/movie/${id}`, {
                 params: {
-                    api_key: "65a85df54d92afbbcf6d43aae92ea78f",
+                    api_key: api_key,
                     language: "pt-BR"
                 }
             }).then ((response) => { //caso de sucesso
